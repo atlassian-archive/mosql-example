@@ -1,0 +1,13 @@
+demo:
+  collection1:
+    :columns:
+    - id:
+      :source: _id
+      :type: TEXT
+    - amount:
+      :source: currentPrice.amt
+      :type: INT
+    - productID: TEXT
+    :meta:
+      :table: collection1
+      :extra_props: true
